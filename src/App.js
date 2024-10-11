@@ -12,6 +12,17 @@ function App() {
       <section>
       <h1>Helloworld</h1>
     </section>
+    <section className="skill_section mt-4 py-5" id="skills">
+        <Skills />
+      </section>
+
+      <section id="timeline_section mt-4 py-4">
+        <Timeline />
+      </section>
+
+      <section className="contact_section mt-4 py-5" id="contact">
+        <ContactUs />
+      </section>
     </div>
   );
 }
